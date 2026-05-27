@@ -95,7 +95,7 @@ Pretrain the model using the prepared datasets. The provided scripts support dis
 
     ```bash
    torchrun --standalone --nproc_per_node=8 train_fw_pls.py config/train_llama_medium_adam_80g8_dpls.py
-   ```
+    ```
 
 ## Evaluation
 
@@ -103,18 +103,17 @@ Pretrain the model using the prepared datasets. The provided scripts support dis
 
    Update `resume_dir` in file `config/eval_llama_medium_adam_80g8.py`, model will resume from `resume_dir`
 
-    ```bash
-   python eval.py config/eval_llama_medium_adam_80g8.py
-   ```
-
+```shell
+python eval.py config/eval_llama_medium_adam_80g8.py
+```
 ### Downstream Evaluation
 
 Evaluate the performance of the pretrained model using standardized benchmarks.
 
 1. **Navigate to the Evaluation Harness Directory**
 
-   ```bash
-   cd lm-evaluation-harness
+   ```
+cd lm-evaluation-harness
    ```
 2. **Follow the Instructions Within This Directory**
 
