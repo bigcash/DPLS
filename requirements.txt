@@ -1,0 +1,9 @@
+torch==2.8.0
+numpy
+transformers==4.57.6
+datasets 
+tiktoken 
+wandb 
+tqdm
+cython
+swanlab
