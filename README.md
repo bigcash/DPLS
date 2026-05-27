@@ -112,9 +112,9 @@ Evaluate the performance of the pretrained model using standardized benchmarks.
 
 1. **Navigate to the Evaluation Harness Directory**
 
-   ```
+```shell
 cd lm-evaluation-harness
-   ```
+```
 2. **Follow the Instructions Within This Directory**
 
    *Ensure your model is compatible with the evaluation harness requirements.*
